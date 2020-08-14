@@ -1,6 +1,6 @@
-/* .java-script, .python, .ruby, .languageSuggestion {
+.java-script, .python, .ruby, .weSuggest {
   display: none;
-} */
+}
 
 body {
   background-color: slategray;
@@ -58,7 +58,7 @@ body {
   background-color: lightsteelblue;
   font-family: 'didot', serif;
 }
-#languageSuggestion {
+#weSuggest {
   padding: 10px;
   text-align: left;  
   border: outset silver;
@@ -68,8 +68,9 @@ body {
 
 .language { 
   padding: 10px;
-  text-align: left;  
+  text-align: center;  
   border: outset silver;
   background-color: lightsteelblue;
+  color: lightsteelblue;
   font-family: 'didot', serif;
 }

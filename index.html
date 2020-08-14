@@ -13,7 +13,6 @@
 <!-- Language Suggester Form -->
 <!-- Question 1  card id=personalityQuestion form id=personality-->
 <div>
-  
     <div class="card" id="personalityQuestion">
       <div class="card-body">
         <form id="profileInfo">
@@ -28,29 +27,15 @@
           </div>
       </div>
     </div>
-  <!-- <form id="profileInfo">
-    <div class="card" id="personalityQuestion">
-      <div class="card-body">
-          <div class="form-group">
-            <label for="personality">What one word best discribes your personality:</label>
-            <select class="form-control" id="personality">
-              <option>controled</option>
-              <option>detail oriented</option>
-              <option>care free</option>
-              <option>spontaneous</option>
-            </select>
-          </div>
-      </div>
-    </div> -->
 <!-- Question 2 card id=interestQuestion form id=interest--> 
     <div class="card" id="interestQuestion">
       <div class="card-body">
         <div class="form-group">
           <label for="interest">How would you stay entertained:</label>
           <select class="form-control" id="interest">
-            <option>playing video games</option>
             <option>reading murder mystery</option>
             <option>playing Sudoku</option>
+            <option>playing video games</option>
             <option>going to a concert</option>
           </select>
         </div>
@@ -98,16 +83,17 @@
         </div>
       </div>
     </div>
-  </form>
-<!-- Submit Button -->
-  <div class="card">
-    <div class="card-body">
-      <div class="languageSuggestion">
-        <button type="submit" clas="btn"></button>
-        <h1 class="languageSuggestion">We Suggest:</h1>
+    <!-- Submit Button and suggestion header-->
+    <div class="card">
+      <div class="card-body">
+        <button type="submit" class="btn btn-block"><strong>Submit</strong></button>
+        <div id="weSuggest">
+          <h1 class="weSuggest">We Suggest:</h1>
+        </div>
       </div>
     </div>
-  </div>
+  </form>
+
 <!-- Language Suggester Answer: id=language class= java-script python ruby-->
   <div class="card" id="language">
     <div class="card-body">

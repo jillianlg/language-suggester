@@ -19,21 +19,19 @@ $(document).ready(function() {
     event.preventDefault();
     let personalityInput = $("#personality").val();
     let interestInput = $("#interest").val();
-    console.log("interestInput");
+    // let colorInput = $("#color").val();
+    // let musicInput = $("#music").val();
+    // let animalInput = $("#animal").val();
 
-    $(".java-script, .python, .ruby").hide();
+    $(".java-script, .python, .rudy").hide();
 
+    if (personalityInput === "controled" && interestInput === "reading murder mystery" || personalityInput === "detail oriented" && interestInput === "playing Sudoku" || personalityInput === "controled" && interestInput === "playing Sudoku" || personalityInput === "detail oriented" && interestInput === "reading murder mystery") {
+      $(".python, .weSuggest").show(); 
+    } else if (personalityInput === "spontaneous" && interestInput === "going to a concert" || personalityInput === "spontaneous" && interestInput === "playing video games" || personalityInput === "care free" && interestInput === "going to a concert" || personalityInput === "care free" && interestInput === "playing video games") {
+      $(".ruby, .weSuggest").show(); 
 
-    if (personalityInput) {
-      if (personalityInput === "controled" && interestInput === "reading murder mystery") {
-        $(".python, .languageSuggestion").show();  
-      }
-        else if (personalityInput === "detail oriented" && interestInput === "playing Sudoku") {
-          $(".ruby, .languageSuggestion").show();  
-        }
-      else {
-        $(".java-script, .languageSuggestion").show();
-      } 
-    }
+    } else {
+      $(".java-script, .weSuggest").show(); 
+    } 
   });
 });
