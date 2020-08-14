@@ -17,19 +17,23 @@ $(document).ready(function() {
   $("form#profileInfo").submit(function(event) {
     console.log("Submit form successfully reached.");
     event.preventDefault();
-    let personality = $("#personality").val();
-    let interest = $("#interest").val();
+    let personalityInput = $("#personality").val();
+    let interestInput = $("#interest").val();
+    console.log("interestInput");
 
     $(".java-script, .python, .ruby").hide();
 
 
-if (personality) {
-  if (personality === "controled" && interest === "reading murder mystery")
-  $(".python, .languageSuggestion").show();  
-}
-else if (personality === "detail oriented" && interest === "playing Sudoku") {
-  $(".ruby, .languageSuggestion").show();  
-}
-else {
-  $(".java-script, .languageSuggestion").show();
-} 
+    if (personalityInput) {
+      if (personalityInput === "controled" && interestInput === "reading murder mystery") {
+        $(".python, .languageSuggestion").show();  
+      }
+        else if (personalityInput === "detail oriented" && interestInput === "playing Sudoku") {
+          $(".ruby, .languageSuggestion").show();  
+        }
+      else {
+        $(".java-script, .languageSuggestion").show();
+      } 
+    }
+  });
+});
