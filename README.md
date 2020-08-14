@@ -1,12 +1,12 @@
-# _PPOJECT TITLE_
+# _Programming Language Suggester_
 
-#### _BRIEF DESCRIPTION OF APPLICATION, DATE.2020_
+#### _Application uses user input to provide guidance on slecting a programing language, 08.14.2020_
 
 #### By _**Jillian Gibson**_
 
 ## Description
 
-_This HTML demonstrates the fundamental understanding of...._
+_This HTML demonstrates the fundamental understanding of using branching with form type inputs, boolean conditions, logical operators, jquery and bootstrap libraries._
 
 ## Setup/Installation Requirements
 
@@ -18,7 +18,7 @@ _This HTML demonstrates the fundamental understanding of...._
 
 ## Known Bugs
 
-_No known bugs._
+_as of 4:29pm Language selection cards are not responding to custuom css._
 
 ## Support and contact details
 
