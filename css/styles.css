@@ -100,11 +100,11 @@ div.a {
   font-family: 'optima', sans-serif;
 }
 
-.language { 
+#results { 
   padding: 10px;
-  text-align: center;  
+  text-align: center;
+  color: black; 
   border: outset silver;
   background-color: lightsteelblue;
-  color: lightsteelblue;
   font-family: 'optima', sans-serif;
 }

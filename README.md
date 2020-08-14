@@ -18,7 +18,7 @@ _This HTML demonstrates the fundamental understanding of using branching with fo
 
 ## Known Bugs
 
-_as of 4:29pm Language selection cards are not responding to custuom css._
+_No known bugs_
 
 ## Support and contact details
 
