@@ -1,6 +1,6 @@
-.java-script, .python, .ruby, .weSuggest {
+/* .java-script, .python, .ruby, .weSuggest {
   display: none;
-}
+} */
 
 body {
   background-color: slategray;
@@ -8,23 +8,46 @@ body {
 .btn{
   background-color: slategray;
 }
-
 .mainHeader{
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: black;
   padding: 30px;
   border: outset rgb(192, 192, 192);
   border-width: 10px;
-  background-color: #006e99;
-  font-family: 'marker felt', fantasy;
+  background-color: lightsteelblue;
+  font-family: 'optima', sans-serif;
 }
+.subHeader{
+  text-align: left;
+  color: black;
+  padding: 30px;
+  border: outset rgb(192, 192, 192);
+  border-width: 10px;
+  background-color: lightsteelblue;
+  font-family: 'optima', sans-serif;
+}
+.formHeader{
+  text-align: center;
+  font-style: bold;
+  color: black;
+  padding: 50px;
+  border: outset rgb(192, 192, 192);
+  border-width: 10px;
+  background-color: lightsteelblue;
+  font-family: 'optima', sans-serif;
+}
+
+div.a {
+  margin-left: 30px
+}
+
 
 #personalityQuestion {
   padding: 10px;
   text-align: left;  
   border: outset silver;
   background-color: lightsteelblue;
-  font-family: 'didot', serif;
+  font-family: 'optima', sans-serif;
 }
 
 #interestQuestion {
@@ -32,7 +55,7 @@ body {
   text-align: left;  
   border: outset silver;
   background-color: lightsteelblue;
-  font-family: 'didot', serif;
+  font-family: 'optima', sans-serif;
 }
 
 #colorQuestion {
@@ -40,7 +63,7 @@ body {
   text-align: left;  
   border: outset silver;
   background-color: lightsteelblue;
-  font-family: 'didot', serif;
+  font-family: 'optima', sans-serif;
 }
 
 #musicQuestion {
@@ -48,7 +71,7 @@ body {
   text-align: left;  
   border: outset silver;
   background-color: lightsteelblue;
-  font-family: 'didot', serif;
+  font-family: 'optima', sans-serif;
 }
 
 #cuisineQuestion {
@@ -56,14 +79,14 @@ body {
   text-align: left;  
   border: outset silver;
   background-color: lightsteelblue;
-  font-family: 'didot', serif;
+  font-family: 'optima', sans-serif;
 }
 #weSuggest {
   padding: 10px;
-  text-align: left;  
+  text-align: center;  
   border: outset silver;
   background-color: lightsteelblue;
-  font-family: 'didot', serif;
+  font-family: 'optima', sans-serif;
 }
 
 .language { 
@@ -72,5 +95,5 @@ body {
   border: outset silver;
   background-color: lightsteelblue;
   color: lightsteelblue;
-  font-family: 'didot', serif;
+  font-family: 'optima', sans-serif;
 }

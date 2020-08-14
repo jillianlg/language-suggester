@@ -9,123 +9,173 @@
 </head>
 <body>
 <!-- Header -->
-<!-- Intro to Programing -->
+<div class="container">
+  <div class="mainHeader">
+    <h1><strong>Programming Language Suggester</strong></h1>
+    <!-- Intro to Programing -->
+  </div> 
+  <div class="subHeader">
+    <h2>You want to learn some code but you don't know where to start?</h2>
+      <p>Well you are in luck! Our programing language suggester can steer you in the right direction!</p>
+      <br>
+      
+      <h4>First let learn a little about the languages of programing:</h4>
+        <dl>
+          <dt>What is a Programing Language?</dt>
+          <dd>A programming language is a notation designed to connect instructions to a machine or a computer. Programming languages are mainly used to control the performance of a machine or to express algorithms.</dd>
+          <dt>What are the main types of Programing Languages?</dt>
+          <dd>There are many types of coding languages. This is because the base language that computers speak—which is binary machine language, just ones and zeros—is far too difficult to use alone. We need some kind of in-between language that humans can use to give effective orders to computers in a reasonable amount of time.
+          <br>Because all coding languages are just in-betweens, there are many types of languages that provide different levels of functionality. The first factor to consider when organizing these languages is <em>high-level</em> or <em>low-level</em>.</dd>
+        </dl>
+        <div class="a">
+          <dl>
+            <dt>High-Level Programming Languages</dt>
+            <dd>High-level coding languages have a higher level of abstraction. This means they are closer to human language, and farther from machine code. High-level languages are easier to learn and use, but they usually offer less functionality and direct control over the computer. 
+            <br>High-level languages tend to be more automated, where a single programming command actually does many pre-programmed things to make programming easier and more efficient.</dd>
+            <dt>Low-Level Programming Languages</dt>
+            <dd>Low-level coding languages have a lower level of abstraction, and as you might expect, are the opposite of high-level languages. They are closer to binary and farther from human language. Low-level languages are harder to learn and use, but offer more functionality and direct control over the computer. 
+            <br>While it may take more time and lines of code to do the same thing as a high-level language, low-level languages are far less restrictive and allow programmers to create far more detailed and efficient programs. 
+            </dd>
+            <dt>Front End Development</dt>
+            <dd>Front End Developer works on the user side of applications. This means that you’ll be coding webpages, games, and any software or application that people can see. For example, a front end web developer most likely coded the webpage that you’re reading right now.
+            <dd>The list of front end coding languages includes:</dd>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </dd>
+            <dt>Back End Web Development</dt>
+            <dd>Back End Developers  manage the back end of applications or all of the things that take place behind the scenes. This is known as server-side programming. In order for this webpage to show up on your computer, as well as communicate with the servers that house all of a company’s data, a back end web developer had to construct and code that process.
+              <dd>The list of front end coding languages includes:</dd>
+              <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Ruby</li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+  </div> 
 <!-- Language Suggester Form -->
-<!-- Question 1  card id=personalityQuestion form id=personality-->
-<div>
-    <div class="card" id="personalityQuestion">
-      <div class="card-body">
-        <form id="profileInfo">
-          <div class="form-group">
-            <label for="personality">What one word best discribes your personality:</label>
-            <select class="form-control" id="personality">
-              <option>controled</option>
-              <option>detail oriented</option>
-              <option>care free</option>
-              <option>spontaneous</option>
-            </select>
-          </div>
-      </div>
-    </div>
-<!-- Question 2 card id=interestQuestion form id=interest--> 
-    <div class="card" id="interestQuestion">
-      <div class="card-body">
-        <div class="form-group">
-          <label for="interest">How would you stay entertained:</label>
-          <select class="form-control" id="interest">
-            <option>reading murder mystery</option>
-            <option>playing Sudoku</option>
-            <option>playing video games</option>
-            <option>going to a concert</option>
-          </select>
-        </div>
-      </div>
-    </div>
-<!-- Question 3 card id=colorQuestion form id=color-->
-    <div class="card" id="colorQuestion">
-      <div class="card-body">
-        <div class="form-group">
-          <label for="interest">What is you favorit color pallet:</label>
-          <select class="form-control" id="color">
-            <option>fall colors: wine, royal purple, burnt orange</option>
-            <option>bright colors: sunshine yellow, lime green</option>
-            <option>pastel color: peach, mauve, lavender</option>
-            <option>shades: black, white grey</option>
-          </select>
-        </div>
-      </div>
-    </div>
-<!-- Question 4 card id=musicQuestion form id=music-->
-    <div class="card" id="musicQuestion">
-      <div class="card-body">
-        <div class="form-group">
-          <label for="interest">What is you favorit music gene:</label>
-          <select class="form-control" id="music">
-            <option>pop</option>
-            <option>international</option>
-            <option>country</option>
-            <option>rock</option>
-          </select>
-        </div>
-      </div>
-    </div>
-<!-- Question 5 card id=animalQuestion form id=animal-->
-    <div class="card" id="musicQuestion">
-      <div class="card-body">
-        <div class="form-group">
-          <label for="interest">What is you favorit animal:</label>
-          <select class="form-control" id="music">
-            <option>cat</option>
-            <option>dog</option>
-            <option>snake</option>
-            <option>monkey</option>
-          </select>
-        </div>
-      </div>
-    </div>
-    <!-- Submit Button and suggestion header-->
-    <div class="card">
-      <div class="card-body">
-        <button type="submit" class="btn btn-block"><strong>Submit</strong></button>
-        <div id="weSuggest">
-          <h1 class="weSuggest">We Suggest:</h1>
-        </div>
-      </div>
-    </div>
-  </form>
-
-<!-- Language Suggester Answer: id=language class= java-script python ruby-->
-  <div class="card" id="language">
+  <div class="card">
     <div class="card-body">
-      <div class="java-script">
-        <h2>JavaScript</h2>
-        <img src="img/javascript.png" alt="JavaScript Logo" width="25%" padding= 10px;>
-          <p>JavaScript is all about functionality. JavaScript is one of the most popular languages in the coding universe right now. JavaScript is also a highly diverse language that can be used to code anything from video games to websites. It can also be used for both mobile and desktop apps. JavaScript was a required skill for over 470,000 jobs in tech last year. Potential jobs could include web development, front end development, or JavaScript engineering.</p>
-      </div>
-      <div class="python">
-        <h2>Python</h2>
-        <img src="img/python.png" alt="Python Logo" width="25%" padding= 10px;>
-          <p>Python is a general-use programming language meaning that it can be used for almost anything. Python is one of the most popular programming languages among big tech giants and startups. The language is perfect for beginners because it rejects complexity and is very simple to learn. Coders who know Python would be eligible for jobs in back end development, server coding, and more. Popular sites such as Google, Pinterest, Instagram, and Dropbox were all built using Python.</p>
-      </div>
-      <div class="ruby">
-        <h2>Ruby</h2>
-        <img src="img/ruby.png" alt="Ruby Logo" width="25%" padding= 10px;>
-          <p>Ruby is unique because it runs on the Ruby on Rails framework. The syntax of the language is very straightforward and easy to comprehend. Companies such as Twitter, Airbnb, Shopify, and thousands of other startups have built their platforms using Ruby. Ruby is continuously growing in popularity amongst educational outlets too, as many different coding educational platforms now specialize on both Ruby and Ruby on Rails framework.</p>
-      </div>
-
+        <div class="formHeader">
+          <h1>Enter your info to started!</h1>
+        </div>
+    </div>
   </div>
-</div>
+<!-- Question 1  card id=personalityQuestion form id=personality-->
+    <div>
+        <div class="card" id="personalityQuestion">
+          <div class="card-body">
+            <form id="profileInfo">
+              <div class="form-group">
+                <label for="personality">What one word best discribes your personality:</label>
+                <select class="form-control" id="personality">
+                  <option>controled</option>
+                  <option>detail oriented</option>
+                  <option>care free</option>
+                  <option>spontaneous</option>
+                </select>
+              </div>
+          </div>
+        </div>
+    <!-- Question 2 card id=interestQuestion form id=interest--> 
+        <div class="card" id="interestQuestion">
+          <div class="card-body">
+            <div class="form-group">
+              <label for="interest">How would you stay entertained:</label>
+              <select class="form-control" id="interest">
+                <option>reading murder mystery</option>
+                <option>playing Sudoku</option>
+                <option>playing video games</option>
+                <option>going to a concert</option>
+              </select>
+            </div>
+          </div>
+        </div>
+    <!-- Question 3 card id=colorQuestion form id=color-->
+        <div class="card" id="colorQuestion">
+          <div class="card-body">
+            <div class="form-group">
+              <label for="interest">What is you favorit color pallet:</label>
+              <select class="form-control" id="color">
+                <option>fall colors: wine, royal purple, burnt orange</option>
+                <option>bright colors: sunshine yellow, lime green</option>
+                <option>pastel color: peach, mauve, lavender</option>
+                <option>shades: black, white grey</option>
+              </select>
+            </div>
+          </div>
+        </div>
+    <!-- Question 4 card id=musicQuestion form id=music-->
+        <div class="card" id="musicQuestion">
+          <div class="card-body">
+            <div class="form-group">
+              <label for="interest">What is you favorit music gene:</label>
+              <select class="form-control" id="music">
+                <option>pop</option>
+                <option>international</option>
+                <option>country</option>
+                <option>rock</option>
+              </select>
+            </div>
+          </div>
+        </div>
+    <!-- Question 5 card id=animalQuestion form id=animal-->
+        <div class="card" id="musicQuestion">
+          <div class="card-body">
+            <div class="form-group">
+              <label for="interest">What is you favorit animal:</label>
+              <select class="form-control" id="music">
+                <option>cat</option>
+                <option>dog</option>
+                <option>snake</option>
+                <option>monkey</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- Submit Button and suggestion header-->
+        <div class="card">
+          <div class="card-body">
+            <button type="submit" class="btn btn-block"><strong>Submit</strong></button>
+            <div id="weSuggest">
+              <h1 class="weSuggest">We Suggest:</h1>
+            </div>
+          </div>
+        </div>
+      </form>
 
-
-
-
-</div>
-
-
+    <!-- Language Suggester Answer: id=language class= java-script python ruby-->
+          <div class="card" id="language">
+            <div class="card-body">
+              <div class="java-script">
+                <h2>JavaScript</h2>
+                <img src="img/javascript.png" alt="JavaScript Logo" width="25%" padding= 10px;>
+                  <p>JavaScript is all about functionality. JavaScript is one of the most popular languages in the coding universe right now. JavaScript is also a highly diverse language that can be used to code anything from video games to websites. It can also be used for both mobile and desktop apps. JavaScript was a required skill for over 470,000 jobs in tech last year. Potential jobs could include web development, front end development, or JavaScript engineering.</p>
+              </div>
+              <div class="python">
+                <h2>Python</h2>
+                <img src="img/python.png" alt="Python Logo" width="25%" padding= 10px;>
+                  <p>Python is a general-use programming language meaning that it can be used for almost anything. Python is one of the most popular programming languages among big tech giants and startups. The language is perfect for beginners because it rejects complexity and is very simple to learn. Coders who know Python would be eligible for jobs in back end development, server coding, and more. Popular sites such as Google, Pinterest, Instagram, and Dropbox were all built using Python.</p>
+              </div>
+              <div class="ruby">
+                <h2>Ruby</h2>
+                <img src="img/ruby.png" alt="Ruby Logo" width="25%" padding= 10px;>
+                  <p>Ruby is unique because it runs on the Ruby on Rails framework. The syntax of the language is very straightforward and easy to comprehend. Companies such as Twitter, Airbnb, Shopify, and thousands of other startups have built their platforms using Ruby. Ruby is continuously growing in popularity amongst educational outlets too, as many different coding educational platforms now specialize on both Ruby and Ruby on Rails framework.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
 </body>
 </html>
 
-<!-- VERSION 1 - Question 1
+<!-- VERSION 1 - Question 1 
+  * Note: I didn't like the way it looked but left here to show that I understood how to layout a radio form type.
 <div class="row">
   <div class="col-6">
     <div class="radio">
