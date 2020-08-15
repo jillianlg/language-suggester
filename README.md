@@ -13,7 +13,7 @@ _This HTML demonstrates the fundamental understanding of using branching with fo
 * _Clone down repository from Git Hub to machine._
 * _Navigate to root directory._
 * _Open index.html in text editor to view code._
-* _Launch index.html to in browser to display or view via [ghpages](TBD)._
+* _Launch index.html to in browser to display or view via [ghpages](https://jillianlg.github.io/language-suggester/)._
 
 
 ## Known Bugs
