@@ -1,16 +1,12 @@
 // User Interface
 $(document).ready(function() {
-  console.log("Script executing!")
   $("form#profileInfo").submit(function(event) {
-    console.log("Submit form successfully reached.");
     event.preventDefault();
+    
     let personalityInput = $("#personality").val();
     let interestInput = $("#interest").val();
-    // let colorInput = $("#color").val();
-    // let musicInput = $("#music").val();
-    // let animalInput = $("#animal").val();
 
-    $(".java-script, .python, .rudy").hide();
+    $(".java-script, .python, .rudy, .about").hide();
 
     if (personalityInput === "controled" && interestInput === "reading murder mystery" || personalityInput === "detail oriented" && interestInput === "playing Sudoku" || personalityInput === "controled" && interestInput === "playing Sudoku" || personalityInput === "detail oriented" && interestInput === "reading murder mystery") {
       $(".python, .weSuggest, .about").show(); 

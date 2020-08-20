@@ -1,4 +1,4 @@
-.java-script, .python, .ruby, .weSuggest, .about{
+.java-script, .python, .ruby, .weSuggest, .about {
   display: none;
 }
 
@@ -20,7 +20,7 @@ body {
 .subHeader{
   text-align: center;
   color: black;
-  padding: 75px;
+  padding: 30px;
   border: outset rgb(192, 192, 192);
   background-color: lightsteelblue;
   font-family: 'optima', sans-serif;
@@ -83,7 +83,7 @@ div.a {
   font-family: 'optima', sans-serif;
 }
 
-#cuisineQuestion {
+#animalQuestion {
   padding: 10px;
   text-align: left;  
   border: outset silver;
