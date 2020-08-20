@@ -1,14 +1,10 @@
 // User Interface
 $(document).ready(function() {
-  console.log("Script executing!")
   $("form#profileInfo").submit(function(event) {
-    console.log("Submit form successfully reached.");
     event.preventDefault();
+    
     let personalityInput = $("#personality").val();
     let interestInput = $("#interest").val();
-    // let colorInput = $("#color").val();
-    // let musicInput = $("#music").val();
-    // let animalInput = $("#animal").val();
 
     $(".java-script, .python, .rudy, .about").hide();
 
